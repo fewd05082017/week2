@@ -15,23 +15,27 @@ body {
 	text-align: center;
 }
 
-h1 span {
-	font-weight: extrabold;
+h1 {
+	font-weight: 800;
 	font-size: 24px;
 	color: #f0efef;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1100px;	
 }
 
 h2 {
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 24px;
 	color: #f0efef;
 	margin-left: auto;
   	margin-right: auto;
-  	padding: 100px;
+  	padding: 140px;
 }
 
 h3 {
-	font-weight: bolder;
+	font-weight: 800;
 	font-size: 14px;
 	border-style: solid;
 	border-radius: 5px;
@@ -45,19 +49,19 @@ h3 {
 }
 
 h4 {
-	font-weight: bold;
+	font-weight: 600;
 	font-size: 20px;
 	padding: 40px;
 }
 
 ul {
-	font-weight: lighter;
+	font-weight: 300;
 	text-align: left; 
 
 }
 
 #benefits {
-	font-weight: bold;
+	font-weight: 600;
 	width: 1100px;	
 	text-align: left;
 	margin-left: auto;
@@ -74,11 +78,16 @@ ul {
 
 #review {
 	color: white;
+	font-weight: 300;
 	font-style: italic;
+	background: url("../images/testimonial_bg.jpg") no-repeat fixed center;
+	height: 250px;
+	margin: auto ;
 }
 
 #sign {
 	background-color: #f9e42e;
+	font-size: 12px;
 }
 
 #button {
@@ -95,11 +104,13 @@ ul {
 	background-color: #121212;
 	color: #f9e42e;
 	padding: 20px;
+	font-weight: 800;
+	font-size: 24px;
 
 }
 
 footer {
-	font-weight: bolder; 
+	font-weight: 600; 
 	font-size: 12px;
 	border-radius: 5px;
 	color: white;
