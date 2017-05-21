@@ -2,10 +2,138 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+}
+
+body {
+/*Isn't it wrong I have no styling here?*/
+}
+
+/*I used text sizes from instructions but it all looks too small*/
+
+h1 {
+	font-size: 24px;
+	font-weight: 800;
+	color: white;
+	margin-left: 100px;
+	padding-top: 10px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+	margin-bottom: 60px;
+}
+
+a {
+	color: black;
+	font-size: 14px;
+	font-weight: 800;
+  background-color: #f9e42e;
+  border: 5px solid #f9e42e;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+#Benefits {
+  padding: 100px 0 100px 0;
+  background-color: #f0efef;
+}
+
+h3 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+p {
+	margin-left: 100px;
+	margin-bottom: 20px;
+} 
+
+ul {
+  margin-left: 120px;
+}
+
+#Testimonal {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center;
+  background-size: cover;
+  margin-left: 0;
+  padding: 70px 0 70px 0;
+}
+
+#Quote {
+  display: block;
+  margin: 0 auto;
+	width: 400px;
+	text-align: center;
+	color: white;
+}
+
+#Quote p {
+	margin: 0;
+	font-weight: 300;
+  font-style: italic;
+  font-size: 18px;
+}
+
+h4 {
+	font-weight: 600px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#CTA {
+	background-color: #f9e42e;
+	padding: 30px;
+  text-align: center;
+}
+
+#CTA a{
+	color: white;
+	font-size: 14px;
+	font-weight: 800;
+  background-color: #033048;
+  border: 5px solid #033048;
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 100px;
+}
+
+footer {
+  background: #121212;
+  padding: 60px 0 60px;
+  text-align: center;
+}
+
+h5 {
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+
+h6 {
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+	padding-top: 20px;
 }
