@@ -13,7 +13,9 @@ header {
 body {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
+    overflow-x: hidden; 
 }
+
 
 h1 {
 	font-weight: 800;
@@ -33,7 +35,8 @@ h2 {
 	color: #f0efef;
 	margin-left: auto;
   	margin-right: auto;
-  	padding: 140px;
+  	padding-bottom: 90px;
+  	padding-top: 170px;
 }
 
 h3 {
@@ -42,7 +45,7 @@ h3 {
 	border-style: solid;
 	border-radius: 5px;
 	padding: 10px;
-	width: 200px;
+	width: 190px;
 	border-color: #f9e42e;
 	background: #f9e42e;
 	color: #121212;
@@ -72,27 +75,28 @@ p span {
   	margin-left: auto;
   	margin-right: auto;
   	background-color: white;
-
 }
 
 #benefits {
 	font-weight: 600;
 	font-size: 20px;
 	text-align: left;
-	margin-left: auto;
-	margin-right: auto;	
+	padding-left: 40px;
+
 }
 
 #blurb {
 	padding-left: 50px;
 	padding-right: 50px;
 	font-weight: 300;
+	color: #606161;
 
 }
 #list {
 	padding-left: 100px;
 	padding-bottom: 70px;
 	padding-top: 30px;
+	color: #606161;
 
 
 }
@@ -102,35 +106,51 @@ p span {
 	font-style: italic;
 	background: url("../images/testimonial_bg.jpg") no-repeat center;
 	height: 250px;
+	padding-top: 50px;
 	margin-left: auto;
 	margin-right: auto;	
+	text-align: center;
 }
 
 #text {
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 310px;
+	padding-right: 310px;
 	padding-top: 50px;
+	padding-bottom: 5px;
 
 }
 
 #sign {
 	background-color: #f9e42e;
-	font-size: 12px;
+	padding: 20px;
 }
 
 #button {
 	font-size: 12px;
+	font-weight: 800;
 	color: white;
-	padding: 20px;
-	border-radius: 5px;
+	border-color: #033048;
 	border-style: solid;
-	
-
+	border-radius: 5px;
+	padding: 10px;
+	width: 150px;
+	background: #033048;
+	margin-left: auto;
+  	margin-right: auto;
 }
 
-#img {
-	padding-top: 30px;
+#img1 {
+	padding-top: 50px;
 	padding-bottom: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+#img2 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: inline-block;
 }
 
 #end {
