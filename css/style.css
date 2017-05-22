@@ -30,6 +30,7 @@ header {
 h1 {
 	font-size: 24px;
 	font-weight: bolder;
+	padding-left: 40px;
 }
 
 article {
@@ -144,7 +145,7 @@ h6 {
 	background-color: #f9e42e;
 	text-align: center;
 	width: 200px;
-	margin-top: 80px;
+	margin-top: 100px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 10px;
@@ -158,6 +159,7 @@ h6 {
 }
 
 #testimonial {
+	padding-top: 20px;
 	font-style: italic;
 	font-size: 18px;
 }
