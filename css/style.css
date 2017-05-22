@@ -4,8 +4,191 @@
   padding: 0;
 }
 
-header {
+/*header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+}*/
+
+body{
+  background-color: #f0efef; 
+  font-family: 'Open Sans', sans-serif;
 }
+
+
+h1{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding: 50px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  text-align: white;
+  padding: 50px;
+  text-align:center;
+}
+
+
+h3{
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom:20px;
+}
+
+h4{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height:26px;
+  font-weight: 300;
+  font-style:italic;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h5{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height:26px;
+  font-weight: 600;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+/*h4 span {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  font-style:none;
+  vertical-align: middle;
+}
+  Question: I wanted to make "Amanda" using span but without creating h5 style.
+  I'm curious to know why this above doesnt work. It keeps inheriting italic style
+  from h4 even though I said 'none' for the font-style
+
+*/
+
+
+p, li{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 200;
+  color: #121212;
+}
+
+#bullets{
+padding:20px 0 0 40px;
+}
+
+
+.intro{
+  background: url("../images/header_bg.jpg") no-repeat center top;
+  width:100%;
+  height:600px;
+  background-size: cover;
+}
+
+.middle {
+  padding-left:50px;
+  padding-top:80px;
+  padding-bottom:80px;
+  text-align: left;
+  width:340px;
+}
+
+.last {
+  height:300px;
+  background: url("../images/testimonial_bg.jpg") no-repeat center top;
+  background-size: cover;
+  position:relative;
+}
+
+#quote {
+/*  vertical-align: middle;
+*/width:300px;
+  margin: 0 auto 30px auto;
+  top:30%;
+  position: absolute;
+  right:0;
+  left:0;
+}
+
+#signup {
+  display:block;
+  height:70px;
+  background-color:#f9e42e;
+  text-align: center;
+}
+
+#signup .button {
+  color:white;
+  background-color: #033048;
+  font-weight:800;
+  font-size:12px;
+/*  vertical-align: center;
+  Question: Why does this not verticall center thing?
+  I was able to find the answer in google which is using 
+  transform: translateY(-50%) but not sure what that means..
+  Is there other way to vertically center things?;
+*/position:relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+#center-message {
+  text-align:center;
+  /*top:50%; why does this not work and vertialy center?*/
+  margin: 60px auto 0 auto;
+}
+
+.button {
+  color:#033048;
+  font-weight:800;
+  font-size:14px;
+  text-decoration: none;
+  padding: 10px 35px 10px 35px;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  display:inline-block;
+}
+
+.footer {
+  background-color: #121212;
+  text-align: center;
+}
+
+.footer h1 {
+    color: #f9e42e;
+}
+
+
+.footer p {
+  color: white;
+  font-size: 9px;
+  font-weight: 400;
+  padding-bottom:25px;
+}
+
+.social {
+  margin-bottom:50px;
+}
+.social img{
+  height:20px;
+  padding:0 12px;
+
+}
+
+
