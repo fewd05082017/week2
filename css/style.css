@@ -1,11 +1,116 @@
 /* Simple CSS Reset */
+@import "normalize.min.css";
+
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
 }
 
 header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  color: white;
 }
+
+
+h1 {
+	font-weight: 800;
+	font-size: 24px;
+	padding-left: 80px;
+  	padding-top: 40px;
+}
+
+h2 {
+	font-weight: semibold;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+#button1 {
+	margin: auto;
+	width: 100px;
+	color: #121212;
+	font-weight: 800;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+	background-color: #f9e42e;
+	border-radius: 5px;
+}
+
+h3 {
+	font-weight: semibold;
+	font-size: 24px;
+	margin-top: 40px;
+	margin-left: 80px;
+}
+
+p{
+	margin-left: 80px;
+	font-weight: Light;
+	font-size: 13px;
+
+}
+
+ul {
+	margin-left: 100px;
+	font-weight: Light;
+	font-size: 13px;
+}
+
+#testimonial {
+		font-family: 'Open Sans', sans-serif;
+	height: 400px;
+	background: url("../images/testimonial_bg.jpg") no-repeat center;
+  	background-size: cover;
+  	color: white;
+  	text-align: center;
+}
+
+h4 {
+  	font-style: italic;
+  	font-weight: light;
+  	font-size: 18px;
+  	padding-top: 200px;
+}
+
+h5 {
+	font-weight: semibold;
+	font-size: 18px;
+	padding-bottom: auto;
+}
+
+#sign_up_bg {
+	background-color: #f9e42e;
+}
+
+#sign_up {
+		background-color: #033048;
+		margin: auto;
+		width: 100px;
+		text-align: center;
+		font-weight: 800;
+		font-size: 12px;
+		border-radius: 5px;
+		padding: 10px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
