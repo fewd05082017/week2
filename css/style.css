@@ -3,9 +3,84 @@
   margin: 0;
   padding: 0;
 }
+ 
 
-header {
+@import "normalize.min.css";
+
+title {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+	background-color: ##f0efef;
+	font-size: 24px;
+	font-weight:Extra bolder ;
+	text-align: center;
+}
+
+
+
+h1 {
+	font-size: 24px;
+	color: #white;
+	font-weight: Semi bolder;
+	text-align: center;
+}
+
+h2 {
+	font-size: 14px;
+	color: #white;
+	font-weight: Extra bolder ;
+	border-radius: 5px
+	border-color: #f9e42e ;
+	text-align: center;
+}
+
+body{
+
+header{
+	font-size: 20px;
+	color: #033048;
+	font-weight: semi bold;
+text-align: center;
+}
+
+p{
+	font-size: 13px;
+	color: #121212;
+	font-weight: lighter;
+	text-align: center;
+}
+}
+p{
+	font-size: 18px;
+	color: #white;
+	font-weight: lighter;
+	font-style: italic;
+	text-align: center;
+}
+
+h3 {
+	font-size: 12px;
+	color: #white;
+	font-weight: Extra bolder ;
+	border-radius: 5px
+	border-color: #f9e42e ;
+	text-align: center;
+
+}
+
+h4 {
+	font-size: 24px;
+	color: #cccccc;
+	font-weight: extra bold;
+	text-align: center;
+}
+
+h5 {
+	font-size: 9px;
+	color: #white;
+	font-weight: semi bold
+	text-align: center;
+
 }
