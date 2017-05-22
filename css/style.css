@@ -100,10 +100,20 @@ h5 {
 		font-size: 12px;
 		border-radius: 5px;
 		padding: 10px
-
+		color: white;
 }
 
+footer {
+	background-color: #121212;
+	color: white;
+	text-align: center;
+}
 
+h6 {
+	color: #f9e42e;
+	font-weight: 800;
+	font-size: 24px;
+}
 
 
 
