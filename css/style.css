@@ -1,4 +1,5 @@
-/* Simple CSS Reset */
+@import "normalize.min.css"
+
 * {
   margin: 0;
   padding: 0;
@@ -8,4 +9,165 @@ header {
   height: 700px;
   background: url("../images/header_bg.jpg") no-repeat center top;
   background-size: cover;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+    overflow-x: hidden; 
+    position: absolute;
+}
+
+
+h1 {
+	font-weight: 800;
+	font-size: 24px;
+	color: #f0efef;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1100px;	
+	padding-top: 20px;
+	padding-left: 50px;
+}
+
+h2 {
+	font-weight: 600;
+	font-size: 24px;
+	color: #f0efef;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding-bottom: 90px;
+  	padding-top: 170px;
+}
+
+h3 {
+	font-weight: 800;
+	font-size: 14px;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 190px;
+	border-color: #f9e42e;
+	background: #f9e42e;
+	color: #121212;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+h4 {
+	font-weight: 600;
+	font-size: 20px;
+	padding: 40px;
+}
+
+ul {
+	font-weight: 300;
+	text-align: left; 
+
+}
+
+p span {
+	font-weight: 600;
+	font-size: 18px;
+	font-style: normal;
+}
+
+#main {
+  	margin-left: auto;
+  	margin-right: auto;
+  	background-color: white;
+}
+
+#benefits {
+	font-weight: 600;
+	font-size: 20px;
+	text-align: left;
+	padding-left: 40px;
+
+}
+
+#blurb {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-weight: 300;
+	color: #606161;
+
+}
+#list {
+	padding-left: 100px;
+	padding-bottom: 70px;
+	padding-top: 30px;
+	color: #606161;
+
+
+}
+#review {
+	color: white;
+	font-weight: 300;
+	font-style: italic;
+	background: url("../images/testimonial_bg.jpg") no-repeat center;
+	height: 250px;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+}
+
+#text {
+	padding-left: 310px;
+	padding-right: 310px;
+	padding-top: 50px;
+	padding-bottom: 5px;
+
+}
+
+#sign {
+	background-color: #f9e42e;
+	padding: 20px;
+}
+
+#button {
+	font-size: 12px;
+	font-weight: 800;
+	color: white;
+	border-color: #033048;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px;
+	width: 150px;
+	background: #033048;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+#img1 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+#img2 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	display: inline-block;
+}
+
+#end {
+	background-color: #121212;
+	color: #f9e42e;
+	padding: 40px;
+	font-weight: 800;
+	font-size: 24px;
+
+}
+
+footer {
+	font-weight: 600; 
+	font-size: 12px;
+	border-radius: 5px;
+	color: white;
+	padding: 40px;
 }
